@@ -9,8 +9,8 @@ pelo caracter
 def troca_vogal(palavra, caracter):
     
     
-    for vogal in 'aeiouAEIOU':
-        if vogal in palavra:
+    for vogal in 'aeiou':
+        if vogal in palavra.lower():
             palavra = palavra.replace(vogal, caracter)
             
     return palavra    
